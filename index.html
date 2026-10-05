@@ -1,26 +1,115 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width">
-<title>VisionMate AI</title>
-<script src="https://cdn.tailwindcss.com"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VisionMate AI - UI Prototype Live</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial}
+body{background:#f1f5f9}
+nav{background:#0a1931;color:#fff;padding:14px 20px;display:flex;justify-content:space-between;align-items:center}
+nav b{font-size:18px} nav b span{color:#22c55e}
+.live{background:#22c55e;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:bold}
+.hero{background:linear-gradient(135deg,#0a1931,#1e3a8a);color:#fff;padding:45px 20px;text-align:center}
+.hero h1{font-size:36px;font-weight:800} .hero h1 span{color:#22c55e}
+.hero p{margin-top:8px;opacity:.9}
+.card{background:#fff;margin:18px;padding:20px;border-radius:14px;box-shadow:0 4px 15px rgba(0,0,0,.08)}
+h2{font-size:20px;color:#0a1931;border-left:6px solid #22c55e;padding-left:10px;margin-bottom:14px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.box{border:1px solid #e2e8f0;border-radius:10px;padding:12px;background:#f8fafc;text-align:center;font-size:13px;line-height:1.5}
+.box b{display:block;margin-bottom:4px;color:#0a1931}
+.dark{background:#0a1931;color:#86efac !important;border-color:#0a1931}
+.dark b{color:#86efac !important}
+.tag{display:inline-block;border:2px solid #22c55e;color:#22c55e;padding:2px 6px;border-radius:4px;font-weight:bold;font-size:11px;margin:2px}
+table{width:100%;border-collapse:collapse;font-size:13px} th,td{border:1px solid #e2e8f0;padding:8px;text-align:left} th{background:#0a1931;color:#fff}
+.link-box{background:#e0f2fe;border:2px dashed #0ea5e9;padding:14px;border-radius:10px;text-align:center;margin-top:10px}
+.link-box a{color:#0369a1;font-weight:800;text-decoration:none;word-break:break-all}
+.footer{background:#0a1931;color:#94a3b8;text-align:center;padding:18px;font-size:12px;margin-top:20px}
+</style>
 </head>
-<body style="background:#0d2818;color:white;text-align:center;padding:20px;font-family:sans-serif">
-<h1 style="font-size:28px;font-weight:bold">VISIONMATE AI</h1>
-<p>An Intelligent Voice Assistant for Visually Impaired People</p>
-<p style="font-size:12px;margin-top:10px">Batch 05: Merudula S, Lavanya K, Narmadha G | Guide: Ms.S.Abikayil Aarthi</p>
+<body>
+<nav><b>VisionMate <span>AI</span></b><span class="live">● LIVE</span></nav>
 
-<div style="background:white;color:black;border-radius:20px;padding:20px;margin-top:20px;text-align:left">
-<h2 style="font-weight:bold;color:green">Features:</h2>
-<p>🎤 Voice Assistant</p>
-<p>👁️ Object Detection</p>
-<p>📖 Text Reading</p>
-<p>💰 Currency Recognition</p>
-<p>📍 Navigation Help</p>
-<p>🆘 Emergency SOS</p>
-<a href="VisionMate_AI_Review_II_18 (1).pptx_20261004_211056_0000 (1).pdf" style="display:block;background:green;color:white;padding:10px;text-align:center;border-radius:10px;margin-top:15px;text-decoration:none">View Review II PPT</a>
+<div class="hero">
+<h1>VisionMate <span>AI</span></h1>
+<p>Your Smart Vision Assistant for a Brighter World</p>
+<p style="font-size:12px;opacity:.6;margin-top:6px">Final Year Project | Guided by Ms.S.Abikayil Aarthi</p>
 </div>
 
-<p style="font-size:10px;margin-top:20px;opacity:0.6">KINGS COLLEGE OF ENGINEERING | CSE | 2026</p>
+<div class="card">
+<h2>4. UI Prototype (Figma) - VisionMate AI</h2>
+<p style="color:#64748b;font-size:13px;margin-bottom:12px">AlumniConnect AI mari same Figma structure - Acessible & Responsive</p>
+
+<div class="grid">
+<div class="box">
+<b>📊 Dashboard</b>
+95% Objects Detected<br>
+128 Voice Commands Today<br>
+7 Accessibility Enabled<br>
+<small style="color:#22c55e">↑ 4.2% from last week</small><br><br>
+<span style="font-size:11px">Person 98% • Chair 92% • Door 95%</span>
+</div>
+
+<div class="box dark">
+<b>👁️ Live Detection</b>
+<div style="margin:10px 0">CAM 01 • HDR • 1920x1080</div>
+<span class="tag">Person 98.3%</span>
+<span class="tag">Chair 92.1%</span>
+<span class="tag">Door 87.6%</span>
+<div style="margin-top:12px;font-size:11px">● Recording • 30 FPS • 22ms latency<br>REC 00:12:34 • Indoor • Lighting Normal</div>
+</div>
+
+<div class="box">
+<b>🎤 Voice + Text Reading</b>
+Voice Assistant<br>
+Read Text • OCR<br>
+Currency Detect<br>
+SOS Alert<br><br>
+<small>"Bus 14A Gandhipuram" reading...</small>
+</div>
+
+<div class="box">
+<b>📍 Navigation & Goals</b>
+72% Skill Match<br>
+2 Sessions Booked<br>
+Turn left in 10m<br>
+⚠️ Chair ahead<br>
+Screen Reader ON
+</div>
+</div>
+<p style="color:#16a34a;font-weight:bold;margin-top:12px;font-size:12px">✅ Figma UI Kit • WCAG AA • Mobile Responsive 390x844</p>
+</div>
+
+<div class="card">
+<h2>5. Module Allocation</h2>
+<table>
+<tr><th>Module</th><th>Key Features</th><th>Member</th><th>Status</th></tr>
+<tr><td>Frontend & UI/UX</td><td>React UI, Dashboard, Figma Screens</td><td>MERUDULA</td><td>Figma Done • Live</td></tr>
+<tr><td>Backend & DB</td><td>REST APIs, Auth, History DB</td><td>MERUDULA</td><td>ER Done • API Planned</td></tr>
+<tr><td>AI / ML</td><td>YOLOv8, OCR, Voice, Analytics</td><td>MERUDULA</td><td>Model 95% Accuracy</td></tr>
+</table>
+</div>
+
+<div class="card">
+<h2>6. GitHub Repository Update</h2>
+<p style="font-size:13px">Live deployment with UI Prototype:</p>
+<div class="link-box">
+<a href="https://merudula.github.io/VisionMate-AI/">https://merudula.github.io/VisionMate-AI/</a><br>
+<small>Repo: github.com/merudula/VisionMate-AI • Branch: main • LIVE ✅</small>
+</div>
+</div>
+
+<div class="card">
+<h2>7. Research Paper</h2>
+<p style="font-size:13px;line-height:1.8">
+• YOLOv8 for Real-time Object Detection - 2024<br>
+• Accessibility AI for Visually Impaired - Survey<br>
+• Future: GPS Navigation + Obstacle Avoidance + SOS
+</p>
+</div>
+
+<div class="footer">
+Final Year Project by Merudula | VisionMate AI - Smart mentoring today, bright future tomorrow
+</div>
 </body>
 </html>
